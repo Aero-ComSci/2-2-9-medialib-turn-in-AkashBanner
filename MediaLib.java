@@ -3,7 +3,6 @@ public class MediaLib {
     private Movie movie;
     private Song song;
     
-    // Tracking variables for the autograder
     private int numBooks = 0;
     private int numSongs = 0;
     private int numMovies = 0;
@@ -29,7 +28,6 @@ public class MediaLib {
         numSongs++;
     }
 
-    // --- Autograder Required Accessors ---
     public int getNumBooks() {
         return numBooks;
     }
